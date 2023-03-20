@@ -1,0 +1,416 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+.container
+{
+    background-color: black;
+    width: 100%;
+    height: 700px;
+}
+.container .boxx nav
+{
+    background-color: #111;
+    padding: 20px;
+    border-bottom-left-radius: 30px;
+    width: 60em;
+    margin-right: -200px;
+    margin-top: -40px;
+    
+}
+.container nav 
+{
+    position: fixed;
+    z-index: 10;
+}
+.logo
+{
+    cursor: pointer;
+    position: relative;
+    top: 20px;
+    left: 200px;
+    width: 60px;
+    height: 60px;
+    border-radius: 300px;
+
+}
+.img
+{
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    width: 300px;
+    height: 500px;
+
+}
+nav
+{
+    position: absolute;
+    float: right;
+    right: 200px;
+    top: 40px;
+}
+nav .a1 
+{
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 30px;
+    color: white;
+}
+nav .a1:hover
+{
+    color: blue;
+}
+.container span
+{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+.container h5
+{
+    color: red;
+}
+.container h1
+{
+    color: white;
+}
+.container p
+{
+    color: #555;
+}
+.container .box
+{
+    padding: 5px;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    height: 30px;
+    background-color: red;
+}
+.container .box img
+{
+    width: 20px;
+    height: 20px;
+    border-radius: 50px 50px;
+}
+
+/* container2 begin */
+
+.container2
+{
+    background-color: #000;
+    width: 100%;
+    height: 500px;
+}
+.container2 span
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.box1 h1, p
+{
+    padding: 10px;
+    color: #fff;
+}
+.container2 .box1:hover
+{
+    background-color: red;
+}
+.container2 .box1 h4
+{
+    color: white;
+    margin-left: 10px;      
+}
+.container2 .box1 h4:hover
+{
+    color: blue;
+}
+.box1
+{
+    width: 300px;
+    height: 400px;
+    background-color: rgb(21, 21, 21);
+}
+.box1 .box_img
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 300px;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+/* container3 begin */
+
+.container3
+{
+    background-color: #000;
+    width: 100%;
+    height: 500px;
+}
+.container3
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container5
+{
+    column-count: 2;
+    padding: 10px;
+}
+.box2 h2{
+    color: red;
+    display: flex;
+    justify-content: center;
+}
+.box2 h3
+{
+    display: flex;
+    justify-content: center;
+}
+#box h1
+{
+    display: flex;
+    justify-content: center;
+    color: red;
+    font-size: 100px;
+}
+#box h2
+{
+    color: white;
+}
+.box2
+{   
+    background-color: rgb(21, 21, 21);
+    width: 200px;
+    height: 80px;
+}
+
+/* container6 begin */
+
+.container6
+{
+    background-color: #000;
+    width: 100%;
+    height: 85em;
+}
+.container6 h1, p
+{
+    color: #fff;
+}
+.container6 #box1
+{
+    margin-left: 250px;
+    column-count: 2;
+}
+.button
+{
+    background: red;
+    color: white;
+    padding: 10px 30px;
+    height: 50px;
+    border-radius: 10px;
+    margin-left: 150px;
+}
+.button:hover
+{
+    color: red;
+    background-color: blue;
+    cursor: pointer;
+}
+.container7 .box3, .box4
+{
+    background-color: rgb(21, 21, 21);
+    width: 400px;
+    height: 300px;
+    
+}
+.container7
+{
+    column-count: 2;
+}
+.box3
+{
+    margin-left: 250px;
+    margin-bottom: 50px;
+}
+.box3 img
+{
+    width: 200px;
+    height: 250px;
+    position: relative;
+    left: 10px;
+    top: 25px;
+}
+.box3
+{
+    column-count: 2;
+    text-align: justify;
+}
+.box4
+{
+    margin-right: 250px;
+    margin-bottom: 50px;
+}
+.box4 img
+{
+    width: 200px;
+    height: 250px;
+    position: relative;
+    left: 10px;
+    top: 25px;
+}
+.box4
+{
+    column-count: 2;
+    text-align: justify;
+}
+.container7 .h1
+{
+    margin-left: 250px;
+}
+#p
+{
+    color: red;
+}
+#p:hover
+{
+    color: blue;
+    cursor: pointer;
+}
+
+/* container8 begin */
+
+.container8
+{
+    background-color: #222;
+    border-radius: 5px;
+    width: 70%;
+    height: 250px;    
+    position: relative;
+    left: 200px;
+    top: 50px;
+}
+.container8 span
+{
+    float: left;
+}
+.container8 button
+{
+    float: right;
+    margin-top: 50px;
+    margin-right: 120px;
+}
+.container8 h1
+{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.container8 p
+{
+     margin-left: 30px;
+    margin-top: 0px;
+}
+#button
+{
+    background: red;
+    color: white;
+    padding: 10px 30px;
+    height: 50px;
+    border-radius: 10px;
+    margin-left: 350px;
+    border: none;
+}
+#button:hover
+{
+    color: red;
+    background-color: blue;
+    cursor: pointer;
+}
+
+/* container10 begin */
+
+.container10
+{
+    background-color: #000;
+    width: 100%;
+    height: 20px;
+}
+.container10 li, .a2
+{
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0 20px 100px;
+}
+.container10 .a2:hover
+{
+    color: blue;
+}
+
+/* container11 begin */
+
+.container11
+{
+    background-color: #555;
+    width: 100%;
+    height: 100px;
+}
+.container11
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.container11 .logo
+{
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+}
+.container11 img
+{
+    cursor: pointer;
+    width: 80px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+/* container12 begin */
+
+.container12
+{
+    background-color: #222;
+    width: 100%;
+    height: 100px;
+}
+.container12 .logo2
+{
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+}
+.container12
+{
+    display: flex;
+    align-items: center;
+}
+.container12 img
+{
+    margin-left: 1000px;
+
+}
